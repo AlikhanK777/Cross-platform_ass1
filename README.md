@@ -1,17 +1,36 @@
-# scrollable_widgets_app
+# 🎬 Movie Explorer App
 
-A new Flutter project.
+**Movie Explorer** is a modern Flutter-based mobile application designed to showcase a curated catalog of movies.
+---
 
-## Getting Started
+##  Key Features
 
-This project is a starting point for a Flutter application.
+The application implements several core mobile development concepts:
 
-A few resources to get you started if this is your first Flutter project:
+* **Dynamic Filtering:** Real-time movie sorting by categories (Sci-Fi, Action, Drama) using efficient state management (`setState`).
+* **Asynchronous Data Loading:** Simulation of real-world API interaction using `FutureBuilder` and delayed execution to demonstrate loading states (`CircularProgressIndicator`).
+* **Advanced UI (Sliver Widgets):** The Movie Detail screen features a `SliverAppBar` and `CustomScrollView` for a professional "collapsing header" effect.
+* **Network Image Handling:** Robust implementation of `Image.network` with `errorBuilder` to ensure a smooth user experience even during network failures.
+* **Clean Architecture:** Organized directory structure separating Models, Screens, Widgets, and Data services.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Application Preview
+
+![![alt text](image-1.png)](image.png)![alt text](image-1.png)
+
+##  How to Run
+
+1.  **Prerequisites:** Ensure you have the Flutter SDK installed and an emulator (Android/iOS) or a physical device connected.
+2.  **Clone/Extract:** Download the project files to your local machine.
+3.  **Install Dependencies:** Run the following command in the project root:
+    ```bash
+    flutter pub get
+    ```
+4.  **Execute:** Launch the app using:
+    ```bash
+    flutter run
+    ```
+
+---
+Student: Alikhan Kenzhebek 
